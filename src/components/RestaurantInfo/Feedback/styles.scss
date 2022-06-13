@@ -1,0 +1,32 @@
+.feedback {
+  padding: 15px;
+  .feedback-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  input,
+  textarea {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px 0px;
+  }
+  button {
+    background: #e99324;
+    border: 0px;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 14px;
+    float: right;
+    cursor: pointer;
+  }
+  .error-messsage {
+    font-size: 12px;
+    margin: 0px 0px 5px 5px;
+    color: red;
+  }
+}

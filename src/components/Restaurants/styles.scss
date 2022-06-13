@@ -1,0 +1,7 @@
+.list-map {
+  display: flex;
+  height: 100vh;
+  .list {
+    overflow-x: scroll;
+  }
+}

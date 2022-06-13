@@ -1,0 +1,18 @@
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}
+.marker-icon-container {
+  position: relative;
+  .marker-icon {
+    width: 30px;
+  }
+  .restaurant-operating-hours {
+    position: absolute;
+    width: 300px;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+  }
+}

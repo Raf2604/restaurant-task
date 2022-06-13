@@ -1,0 +1,18 @@
+.restaurant-reviews {
+  width: 600px;
+  .review {
+    border: 4px double grey;
+    margin: 15px 0px;
+    padding: 12px;
+    .name {
+      font-weight: 600;
+    }
+    .date {
+      font-size: 12px;
+      font-style: italic;
+    }
+    .comments {
+      text-align: justify;
+    }
+  }
+}

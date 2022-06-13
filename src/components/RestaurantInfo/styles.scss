@@ -1,0 +1,23 @@
+.restaurant-info {
+  font-size: 30px;
+  margin-left: 15px;
+  color: #e99324;
+}
+.restaurant-page {
+  display: flex;
+  .restaurant-component {
+    padding: 15px;
+    width: 800px;
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .restaurant-description {
+      font-size: 16px;
+      margin: 5px 0px;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
