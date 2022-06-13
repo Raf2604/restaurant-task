@@ -32,7 +32,7 @@ const Restaurant = ({ data, setActiveRestaurant }) => {
 
         <p className="restaurant-type">Cuisine Type: {data.cuisine_type}</p>
       </div>
-      <Link to={`restaurant/${data.id}`}>View Restaurnat</Link>
+      <Link to={`restaurant/${data.id}`}>View Restaurant</Link>
     </div>
   );
 };
